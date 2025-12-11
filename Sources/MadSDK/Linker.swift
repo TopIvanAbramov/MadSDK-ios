@@ -6,10 +6,3 @@
 
 // Empty linker file - forces SPM to link both frameworks
 
-@_exported import MadSDKBinary
-
-//final class Testy {
-//    func test() {
-//        MadSDK.
-//    }
-//}
