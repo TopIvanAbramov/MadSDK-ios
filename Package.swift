@@ -5,21 +5,12 @@ let package = Package(
     name: "MadSDK",
     platforms: [ .iOS(.v15) ],
     products: [
-        .library(name: "MadSDK", targets: ["MadSDK"])
+        .library(name: "MadSDK", targets: ["MadSDKBinary"])
     ],
     targets: [
-        .target(
-            name: "MadSDK",
-            dependencies: ["MadSDKBinary", "MadsCoreBinary"],
-            path: "Sources/MadSDK"
-        ),
         .binaryTarget(
             name: "MadSDKBinary",
             path: "MadSDK.xcframework"
-        ),
-        .binaryTarget(
-            name: "MadsCoreBinary",
-            path: "MadsCore.xcframework"
         )
     ]
 )
