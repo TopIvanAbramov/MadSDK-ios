@@ -15,11 +15,11 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MadSDKBinary",
-            path: "Frameworks/MadSDK.xcframework"
+            path: "MadSDK.xcframework"
         ),
         .binaryTarget(
             name: "MadsCoreBinary",
-            path: "Frameworks/MadsCore.xcframework"
+            path: "MadsCore.xcframework"
         )
     ]
 )
