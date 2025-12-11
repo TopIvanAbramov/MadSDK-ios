@@ -8,9 +8,18 @@ let package = Package(
         .library(name: "MadSDK", targets: ["MadSDK"])
     ],
     targets: [
-        .binaryTarget(
+        .target(
             name: "MadSDK",
-            path: "MadSDK.xcframework"
+            dependencies: ["MadSDKBinary", "MadsCoreBinary"],
+            path: "Sources/MadSDK"
+        ),
+        .binaryTarget(
+            name: "MadSDKBinary",
+            path: "Frameworks/MadSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "MadsCoreBinary",
+            path: "Frameworks/MadsCore.xcframework"
         )
     ]
 )
