@@ -15,6 +15,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct UIConfiguration {
+  public enum Color {
+    case hex(Swift.String)
+    case uiColor(UIKit.UIColor)
+  }
+  public let primaryColor: MadSDK.UIConfiguration.Color
+  public let secondaryColor: MadSDK.UIConfiguration.Color
+  public let cornerRadius: CoreFoundation.CGFloat
+  public init(primaryColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
+  @usableFromInline
+  internal static let `default`: MadSDK.UIConfiguration
+}
 public protocol InAppAdDelegate : AnyObject {
   func inAppAd(_ ad: MadSDK.InAppAd, didEmit event: MadSDK.InAppAd.Event)
 }
@@ -53,21 +65,24 @@ public enum SheetSize {
   case marginFromTop(CoreFoundation.CGFloat)
   case percent(CoreFoundation.CGFloat)
 }
-public struct UIConfiguration {
-  public enum Color {
-    case hex(Swift.String)
-    case uiColor(UIKit.UIColor)
-  }
-  public let primaryColor: MadSDK.UIConfiguration.Color
-  public let secondaryColor: MadSDK.UIConfiguration.Color
-  public let cornerRadius: CoreFoundation.CGFloat
-  public init(primaryColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
-  @usableFromInline
-  internal static let `default`: MadSDK.UIConfiguration
-}
 public protocol InAppAdLoaderProtocol : AnyObject {
   var delegate: (any MadSDK.InAppAdLoaderDelegate)? { get set }
   func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
+}
+public struct Configuration : Swift.Equatable {
+  public let isDebugLogsEnabled: Swift.Bool
+  public let isDebugCreativeEnabled: Swift.Bool
+  public init(isDebugLogsEnabled: Swift.Bool = false, isDebugCreativeEnabled: Swift.Bool = false)
+  public static func == (a: MadSDK.Configuration, b: MadSDK.Configuration) -> Swift.Bool
+}
+extension MadSDK.InAppAd {
+  public enum Event {
+    case adShown
+    case adFailedToShow
+    case adDeeplinkClicked(Foundation.URL)
+    case adPromocodeClicked(Swift.String)
+    case adDismissed
+  }
 }
 public struct BottomSheetSettingsModel {
   public static var `default`: MadSDK.BottomSheetSettingsModel
@@ -94,20 +109,23 @@ public enum BottomSheetPullBarStyle {
     get
   }
 }
-extension MadSDK.InAppAd {
-  public enum Event {
-    case adShown
-    case adFailedToShow
-    case adDeeplinkClicked(Foundation.URL)
-    case adPromocodeClicked(Swift.String)
-    case adDismissed
-  }
+public enum MadsSDK {
+  public static let version: Swift.String
+  public static func initialize(_ config: MadSDK.Configuration)
+  public static func update(userId: Swift.String)
 }
-public struct Configuration : Swift.Equatable {
-  public let isDebugLogsEnabled: Swift.Bool
-  public let isDebugCreativeEnabled: Swift.Bool
-  public init(isDebugLogsEnabled: Swift.Bool = false, isDebugCreativeEnabled: Swift.Bool = false)
-  public static func == (a: MadSDK.Configuration, b: MadSDK.Configuration) -> Swift.Bool
+public protocol InAppAdLoaderDelegate : AnyObject {
+  func inAppAdLoader(_ loader: any MadSDK.InAppAdLoaderProtocol, didChangeState state: MadSDK.InAppAdLoader.State)
+}
+final public class InAppAdLoader : MadSDK.InAppAdLoaderProtocol {
+  public enum State {
+    case loaded(MadSDK.InAppAd)
+    case failed(MadSDK.InAppAdLoadError)
+  }
+  weak final public var delegate: (any MadSDK.InAppAdLoaderDelegate)?
+  public init()
+  final public func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class BottomSheetViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency final public let sheetSize: MadSDK.SheetSize
@@ -129,24 +147,6 @@ extension MadSDK.BottomSheetViewController : UIKit.UIViewControllerTransitioning
   @_Concurrency.MainActor @preconcurrency @objc final public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
   @_Concurrency.MainActor @preconcurrency @objc final public func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
   @_Concurrency.MainActor @preconcurrency @objc final public func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
-}
-public protocol InAppAdLoaderDelegate : AnyObject {
-  func inAppAdLoader(_ loader: any MadSDK.InAppAdLoaderProtocol, didChangeState state: MadSDK.InAppAdLoader.State)
-}
-final public class InAppAdLoader : MadSDK.InAppAdLoaderProtocol {
-  public enum State {
-    case loaded(MadSDK.InAppAd)
-    case failed(MadSDK.InAppAdLoadError)
-  }
-  weak final public var delegate: (any MadSDK.InAppAdLoaderDelegate)?
-  public init()
-  final public func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
-  @objc deinit
-}
-public enum MadsSDK {
-  public static let version: Swift.String
-  public static func initialize(_ config: MadSDK.Configuration)
-  public static func update(userId: Swift.String)
 }
 public enum InAppAdLoadError : Swift.Error {
   case network
