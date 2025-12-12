@@ -1,5 +1,0 @@
-framework module "MadsCore" {
-    umbrella header "MadsCore.h"
-    export *
-    module * { export * }
-}
