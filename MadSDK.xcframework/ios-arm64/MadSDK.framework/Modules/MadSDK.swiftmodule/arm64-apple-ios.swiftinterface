@@ -15,11 +15,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Configuration : Swift.Equatable {
-  public let isDebugLogsEnabled: Swift.Bool
-  public let isDebugCreativeEnabled: Swift.Bool
-  public init(isDebugLogsEnabled: Swift.Bool = false, isDebugCreativeEnabled: Swift.Bool = false)
-  public static func == (a: MadSDK.Configuration, b: MadSDK.Configuration) -> Swift.Bool
+public protocol InAppAdLoaderProtocol : AnyObject {
+  var delegate: (any MadSDK.InAppAdLoaderDelegate)? { get set }
+  func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
+}
+extension MadSDK.InAppAd {
+  public enum Event {
+    case adShown
+    case adFailedToShow
+    case adDeeplinkClicked(Foundation.URL)
+    case adPromocodeClicked(Swift.String)
+    case adDismissed
+  }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class BottomSheetViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency final public let sheetSize: MadSDK.SheetSize
@@ -42,19 +49,6 @@ extension MadSDK.BottomSheetViewController : UIKit.UIViewControllerTransitioning
   @_Concurrency.MainActor @preconcurrency @objc final public func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
   @_Concurrency.MainActor @preconcurrency @objc final public func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
 }
-public protocol InAppAdLoaderProtocol : AnyObject {
-  var delegate: (any MadSDK.InAppAdLoaderDelegate)? { get set }
-  func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
-}
-extension MadSDK.InAppAd {
-  public enum Event {
-    case adShown
-    case adFailedToShow
-    case adDeeplinkClicked(Foundation.URL)
-    case adPromocodeClicked(Swift.String)
-    case adDismissed
-  }
-}
 public enum MadsSDK {
   public static let version: Swift.String
   public static func initialize(_ config: MadSDK.Configuration)
@@ -72,6 +66,24 @@ final public class InAppAdLoader : MadSDK.InAppAdLoaderProtocol {
   public init()
   final public func load(padId: Swift.Int, targetings: [Swift.String : Swift.String])
   @objc deinit
+}
+public struct Configuration : Swift.Equatable {
+  public let isDebugLogsEnabled: Swift.Bool
+  public let isDebugCreativeEnabled: Swift.Bool
+  public init(isDebugLogsEnabled: Swift.Bool = false, isDebugCreativeEnabled: Swift.Bool = false)
+  public static func == (a: MadSDK.Configuration, b: MadSDK.Configuration) -> Swift.Bool
+}
+public struct UIConfiguration {
+  public enum Color {
+    case hex(Swift.String)
+    case uiColor(UIKit.UIColor)
+  }
+  public let primaryColor: MadSDK.UIConfiguration.Color
+  public let secondaryColor: MadSDK.UIConfiguration.Color
+  public let cornerRadius: CoreFoundation.CGFloat
+  public init(primaryColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
+  @usableFromInline
+  internal static let `default`: MadSDK.UIConfiguration
 }
 public protocol BottomSheetDismissHandler {
   var canBeDismissed: Swift.Bool { get }
@@ -95,24 +107,6 @@ public enum BottomSheetDismissSource {
 public protocol CompactPreferredContentSizeProvider {
   var compactPreferredContentSize: CoreFoundation.CGSize { get }
 }
-public enum SheetSize {
-  case intrinsic
-  case fixed(CoreFoundation.CGFloat)
-  case marginFromTop(CoreFoundation.CGFloat)
-  case percent(CoreFoundation.CGFloat)
-}
-public struct UIConfiguration {
-  public enum Color {
-    case hex(Swift.String)
-    case uiColor(UIKit.UIColor)
-  }
-  public let primaryColor: MadSDK.UIConfiguration.Color
-  public let secondaryColor: MadSDK.UIConfiguration.Color
-  public let cornerRadius: CoreFoundation.CGFloat
-  public init(primaryColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
-  @usableFromInline
-  internal static let `default`: MadSDK.UIConfiguration
-}
 public enum InAppAdLoadError : Swift.Error {
   case network
   case sdkNotInitialized
@@ -122,6 +116,22 @@ public enum InAppAdLoadError : Swift.Error {
   public var hashValue: Swift.Int {
     get
   }
+}
+public protocol InAppAdDelegate : AnyObject {
+  func inAppAd(_ ad: MadSDK.InAppAd, didEmit event: MadSDK.InAppAd.Event)
+}
+@_hasMissingDesignatedInitializers final public class InAppAd {
+  weak final public var delegate: (any MadSDK.InAppAdDelegate)?
+  @objc deinit
+}
+extension MadSDK.MadsSDK {
+  public static func showInAppAd(_ ad: MadSDK.InAppAd, inVC viewController: UIKit.UIViewController, uiConfig: MadSDK.UIConfiguration = UIConfiguration.default)
+}
+public enum SheetSize {
+  case intrinsic
+  case fixed(CoreFoundation.CGFloat)
+  case marginFromTop(CoreFoundation.CGFloat)
+  case percent(CoreFoundation.CGFloat)
 }
 public struct BottomSheetSettingsModel {
   public static var `default`: MadSDK.BottomSheetSettingsModel
@@ -147,16 +157,6 @@ public enum BottomSheetPullBarStyle {
   public var hashValue: Swift.Int {
     get
   }
-}
-public protocol InAppAdDelegate : AnyObject {
-  func inAppAd(_ ad: MadSDK.InAppAd, didEmit event: MadSDK.InAppAd.Event)
-}
-@_hasMissingDesignatedInitializers final public class InAppAd {
-  weak final public var delegate: (any MadSDK.InAppAdDelegate)?
-  @objc deinit
-}
-extension MadSDK.MadsSDK {
-  public static func showInAppAd(_ ad: MadSDK.InAppAd, inVC viewController: UIKit.UIViewController, uiConfig: MadSDK.UIConfiguration = UIConfiguration.default)
 }
 extension MadSDK.BottomSheetDismissSource : Swift.Equatable {}
 extension MadSDK.BottomSheetDismissSource : Swift.Hashable {}
