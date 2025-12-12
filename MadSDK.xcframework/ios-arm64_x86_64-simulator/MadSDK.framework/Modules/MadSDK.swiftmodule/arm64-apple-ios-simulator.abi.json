@@ -6,1519 +6,14 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InAppAdLoadError",
-        "printedName": "InAppAdLoadError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "network",
-            "printedName": "network",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InAppAdLoadError",
-                    "printedName": "MadSDK.InAppAdLoadError",
-                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MadSDK.InAppAdLoadError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InAppAdLoadError",
-                        "printedName": "MadSDK.InAppAdLoadError",
-                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO7networkyA2CmF",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO7networkyA2CmF",
-            "moduleName": "MadSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "sdkNotInitialized",
-            "printedName": "sdkNotInitialized",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InAppAdLoadError",
-                    "printedName": "MadSDK.InAppAdLoadError",
-                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MadSDK.InAppAdLoadError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InAppAdLoadError",
-                        "printedName": "MadSDK.InAppAdLoadError",
-                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO17sdkNotInitializedyA2CmF",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO17sdkNotInitializedyA2CmF",
-            "moduleName": "MadSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoad",
-            "printedName": "adLoad",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InAppAdLoadError",
-                    "printedName": "MadSDK.InAppAdLoadError",
-                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MadSDK.InAppAdLoadError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InAppAdLoadError",
-                        "printedName": "MadSDK.InAppAdLoadError",
-                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO02adF0yA2CmF",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO02adF0yA2CmF",
-            "moduleName": "MadSDK"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "InAppAdLoadError",
-                "printedName": "MadSDK.InAppAdLoadError",
-                "usr": "s:6MadSDK16InAppAdLoadErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "InAppAdLoadError",
-                "printedName": "MadSDK.InAppAdLoadError",
-                "usr": "s:6MadSDK16InAppAdLoadErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "MadSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO9hashValueSivp",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO9hashValueSivp",
-            "moduleName": "MadSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK16InAppAdLoadErrorO9hashValueSivg",
-                "mangledName": "$s6MadSDK16InAppAdLoadErrorO9hashValueSivg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK16InAppAdLoadErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s6MadSDK16InAppAdLoadErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "MadSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6MadSDK16InAppAdLoadErrorO",
-        "mangledName": "$s6MadSDK16InAppAdLoadErrorO",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "MadsCore",
-        "printedName": "MadsCore",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InAppAdDelegate",
-        "printedName": "InAppAdDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "inAppAd",
-            "printedName": "inAppAd(_:didEmit:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "InAppAd",
-                "printedName": "MadSDK.InAppAd",
-                "usr": "s:6MadSDK7InAppAdC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "MadSDK.InAppAd.Event",
-                "usr": "s:6MadSDK7InAppAdC5EventO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK15InAppAdDelegateP02indE0_7didEmityAA0cdE0C_AG5EventOtF",
-            "mangledName": "$s6MadSDK15InAppAdDelegateP02indE0_7didEmityAA0cdE0C_AG5EventOtF",
-            "moduleName": "MadSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InAppAdDelegate>",
-            "sugared_genericSig": "<Self where Self : MadSDK.InAppAdDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:6MadSDK15InAppAdDelegateP",
-        "mangledName": "$s6MadSDK15InAppAdDelegateP",
-        "moduleName": "MadSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InAppAd",
-        "printedName": "InAppAd",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MadSDK.InAppAdDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvp",
-            "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MadSDK.InAppAdDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InAppAdDelegate",
-                        "printedName": "any MadSDK.InAppAdDelegate",
-                        "usr": "s:6MadSDK15InAppAdDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvg",
-                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MadSDK.InAppAdDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "InAppAdDelegate",
-                        "printedName": "any MadSDK.InAppAdDelegate",
-                        "usr": "s:6MadSDK15InAppAdDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvs",
-                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvs",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvM",
-                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvM",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Event",
-            "printedName": "Event",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "adShown",
-                "printedName": "adShown",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Event",
-                        "printedName": "MadSDK.InAppAd.Event",
-                        "usr": "s:6MadSDK7InAppAdC5EventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.InAppAd.Event.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK7InAppAdC5EventO7adShownyA2EmF",
-                "mangledName": "$s6MadSDK7InAppAdC5EventO7adShownyA2EmF",
-                "moduleName": "MadSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "adFailedToShow",
-                "printedName": "adFailedToShow",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Event",
-                        "printedName": "MadSDK.InAppAd.Event",
-                        "usr": "s:6MadSDK7InAppAdC5EventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.InAppAd.Event.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK7InAppAdC5EventO14adFailedToShowyA2EmF",
-                "mangledName": "$s6MadSDK7InAppAdC5EventO14adFailedToShowyA2EmF",
-                "moduleName": "MadSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "adDeeplinkClicked",
-                "printedName": "adDeeplinkClicked",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.InAppAd.Event.Type) -> (Foundation.URL) -> MadSDK.InAppAd.Event",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Foundation.URL) -> MadSDK.InAppAd.Event",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "URL",
-                            "printedName": "Foundation.URL",
-                            "usr": "s:10Foundation3URLV"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.InAppAd.Event.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK7InAppAdC5EventO17adDeeplinkClickedyAE10Foundation3URLVcAEmF",
-                "mangledName": "$s6MadSDK7InAppAdC5EventO17adDeeplinkClickedyAE10Foundation3URLVcAEmF",
-                "moduleName": "MadSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "adPromocodeClicked",
-                "printedName": "adPromocodeClicked",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.InAppAd.Event.Type) -> (Swift.String) -> MadSDK.InAppAd.Event",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> MadSDK.InAppAd.Event",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.InAppAd.Event.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK7InAppAdC5EventO18adPromocodeClickedyAESScAEmF",
-                "mangledName": "$s6MadSDK7InAppAdC5EventO18adPromocodeClickedyAESScAEmF",
-                "moduleName": "MadSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "adDismissed",
-                "printedName": "adDismissed",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Event",
-                        "printedName": "MadSDK.InAppAd.Event",
-                        "usr": "s:6MadSDK7InAppAdC5EventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.InAppAd.Event.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Event",
-                            "printedName": "MadSDK.InAppAd.Event",
-                            "usr": "s:6MadSDK7InAppAdC5EventO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK7InAppAdC5EventO11adDismissedyA2EmF",
-                "mangledName": "$s6MadSDK7InAppAdC5EventO11adDismissedyA2EmF",
-                "moduleName": "MadSDK"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:6MadSDK7InAppAdC5EventO",
-            "mangledName": "$s6MadSDK7InAppAdC5EventO",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6MadSDK7InAppAdC",
-        "mangledName": "$s6MadSDK7InAppAdC",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Configuration",
-        "printedName": "Configuration",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isDebugLogsEnabled",
-            "printedName": "isDebugLogsEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabledSbvp",
-            "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabledSbvp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabledSbvg",
-                "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabledSbvg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isDebugCreativeEnabled",
-            "printedName": "isDebugCreativeEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvp",
-            "mangledName": "$s6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvg",
-                "mangledName": "$s6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(isDebugLogsEnabled:isDebugCreativeEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Configuration",
-                "printedName": "MadSDK.Configuration",
-                "usr": "s:6MadSDK13ConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabled0de8CreativeG0ACSb_Sbtcfc",
-            "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabled0de8CreativeG0ACSb_Sbtcfc",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Configuration",
-                "printedName": "MadSDK.Configuration",
-                "usr": "s:6MadSDK13ConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Configuration",
-                "printedName": "MadSDK.Configuration",
-                "usr": "s:6MadSDK13ConfigurationV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK13ConfigurationV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s6MadSDK13ConfigurationV2eeoiySbAC_ACtFZ",
-            "moduleName": "MadSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6MadSDK13ConfigurationV",
-        "mangledName": "$s6MadSDK13ConfigurationV",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BottomSheetDismissHandler",
-        "printedName": "BottomSheetDismissHandler",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "canBeDismissed",
-            "printedName": "canBeDismissed",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvp",
-            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvp",
-            "moduleName": "MadSDK",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvg",
-                "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvg",
-                "moduleName": "MadSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
-                "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "didFinishDismiss",
-            "printedName": "didFinishDismiss(source:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BottomSheetDismissSource",
-                "printedName": "MadSDK.BottomSheetDismissSource",
-                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK25BottomSheetDismissHandlerP09didFinishE06sourceyAA0cdE6SourceO_tF",
-            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP09didFinishE06sourceyAA0cdE6SourceO_tF",
-            "moduleName": "MadSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
-            "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "canBeDismissed",
-            "printedName": "canBeDismissed",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvp",
-            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvg",
-                "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvg",
-                "moduleName": "MadSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
-                "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "didFinishDismiss",
-            "printedName": "didFinishDismiss(source:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BottomSheetDismissSource",
-                "printedName": "MadSDK.BottomSheetDismissSource",
-                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE09didFinishE06sourceyAA0cdE6SourceO_tF",
-            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE09didFinishE06sourceyAA0cdE6SourceO_tF",
-            "moduleName": "MadSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
-            "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:6MadSDK25BottomSheetDismissHandlerP",
-        "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BottomSheetDismissSource",
-        "printedName": "BottomSheetDismissSource",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "swipe",
-            "printedName": "swipe",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MadSDK.BottomSheetDismissSource.Type) -> MadSDK.BottomSheetDismissSource",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BottomSheetDismissSource",
-                    "printedName": "MadSDK.BottomSheetDismissSource",
-                    "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MadSDK.BottomSheetDismissSource.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BottomSheetDismissSource",
-                        "printedName": "MadSDK.BottomSheetDismissSource",
-                        "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6MadSDK24BottomSheetDismissSourceO5swipeyA2CmF",
-            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO5swipeyA2CmF",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dimmingViewTap",
-            "printedName": "dimmingViewTap",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MadSDK.BottomSheetDismissSource.Type) -> MadSDK.BottomSheetDismissSource",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BottomSheetDismissSource",
-                    "printedName": "MadSDK.BottomSheetDismissSource",
-                    "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MadSDK.BottomSheetDismissSource.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BottomSheetDismissSource",
-                        "printedName": "MadSDK.BottomSheetDismissSource",
-                        "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6MadSDK24BottomSheetDismissSourceO14dimmingViewTapyA2CmF",
-            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO14dimmingViewTapyA2CmF",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BottomSheetDismissSource",
-                "printedName": "MadSDK.BottomSheetDismissSource",
-                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BottomSheetDismissSource",
-                "printedName": "MadSDK.BottomSheetDismissSource",
-                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK24BottomSheetDismissSourceO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO2eeoiySbAC_ACtFZ",
-            "moduleName": "MadSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK24BottomSheetDismissSourceO9hashValueSivp",
-            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO9hashValueSivp",
-            "moduleName": "MadSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK24BottomSheetDismissSourceO9hashValueSivg",
-                "mangledName": "$s6MadSDK24BottomSheetDismissSourceO9hashValueSivg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK24BottomSheetDismissSourceO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO4hash4intoys6HasherVz_tF",
-            "moduleName": "MadSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6MadSDK24BottomSheetDismissSourceO",
-        "mangledName": "$s6MadSDK24BottomSheetDismissSourceO",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CompactPreferredContentSizeProvider",
-        "printedName": "CompactPreferredContentSizeProvider",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "compactPreferredContentSize",
-            "printedName": "compactPreferredContentSize",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvp",
-            "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvp",
-            "moduleName": "MadSDK",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvg",
-                "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvg",
-                "moduleName": "MadSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.CompactPreferredContentSizeProvider>",
-                "sugared_genericSig": "<Self where Self : MadSDK.CompactPreferredContentSizeProvider>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP",
-        "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
         "moduleName": "MadSDK",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
       },
       {
         "kind": "Import",
@@ -1760,12 +255,415 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
         "moduleName": "MadSDK",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIConfiguration",
+        "printedName": "UIConfiguration",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Color",
+            "printedName": "Color",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hex",
+                "printedName": "hex",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.UIConfiguration.Color.Type) -> (Swift.String) -> MadSDK.UIConfiguration.Color",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> MadSDK.UIConfiguration.Color",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "MadSDK.UIConfiguration.Color",
+                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.UIConfiguration.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "MadSDK.UIConfiguration.Color",
+                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO3hexyAESScAEmF",
+                "mangledName": "$s6MadSDK15UIConfigurationV5ColorO3hexyAESScAEmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "uiColor",
+                "printedName": "uiColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.UIConfiguration.Color.Type) -> (UIKit.UIColor) -> MadSDK.UIConfiguration.Color",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIColor) -> MadSDK.UIConfiguration.Color",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "MadSDK.UIConfiguration.Color",
+                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.UIConfiguration.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "MadSDK.UIConfiguration.Color",
+                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO02uiD0yAESo7UIColorCcAEmF",
+                "mangledName": "$s6MadSDK15UIConfigurationV5ColorO02uiD0yAESo7UIColorCcAEmF",
+                "moduleName": "MadSDK"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6MadSDK15UIConfigurationV5ColorO",
+            "mangledName": "$s6MadSDK15UIConfigurationV5ColorO",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV12primaryColorAC0E0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColorAC0E0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV12primaryColorAC0E0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV12primaryColorAC0E0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryColor",
+            "printedName": "secondaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV12cornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s6MadSDK15UIConfigurationV12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV12cornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s6MadSDK15UIConfigurationV12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(primaryColor:secondaryColor:cornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIConfiguration",
+                "printedName": "MadSDK.UIConfiguration",
+                "usr": "s:6MadSDK15UIConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIConfiguration",
+                "printedName": "MadSDK.UIConfiguration",
+                "usr": "s:6MadSDK15UIConfigurationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV7defaultACvpZ",
+            "mangledName": "$s6MadSDK15UIConfigurationV7defaultACvpZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "UsableFromInline"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIConfiguration",
+                    "printedName": "MadSDK.UIConfiguration",
+                    "usr": "s:6MadSDK15UIConfigurationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV7defaultACvgZ",
+                "mangledName": "$s6MadSDK15UIConfigurationV7defaultACvgZ",
+                "moduleName": "MadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6MadSDK15UIConfigurationV",
+        "mangledName": "$s6MadSDK15UIConfigurationV",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1966,6 +864,205 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isDebugLogsEnabled",
+            "printedName": "isDebugLogsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabledSbvp",
+            "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabledSbvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabledSbvg",
+                "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabledSbvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDebugCreativeEnabled",
+            "printedName": "isDebugCreativeEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvp",
+            "mangledName": "$s6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvg",
+                "mangledName": "$s6MadSDK13ConfigurationV22isDebugCreativeEnabledSbvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isDebugLogsEnabled:isDebugCreativeEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "MadSDK.Configuration",
+                "usr": "s:6MadSDK13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MadSDK13ConfigurationV18isDebugLogsEnabled0de8CreativeG0ACSb_Sbtcfc",
+            "mangledName": "$s6MadSDK13ConfigurationV18isDebugLogsEnabled0de8CreativeG0ACSb_Sbtcfc",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "MadSDK.Configuration",
+                "usr": "s:6MadSDK13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "MadSDK.Configuration",
+                "usr": "s:6MadSDK13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK13ConfigurationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MadSDK13ConfigurationV2eeoiySbAC_ACtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6MadSDK13ConfigurationV",
+        "mangledName": "$s6MadSDK13ConfigurationV",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -3449,6 +2546,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3461,6 +2565,7 @@
         "declKind": "Import",
         "moduleName": "MadSDK",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -3487,8 +2592,32 @@
       },
       {
         "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MadSDK"
       },
@@ -3532,13 +2661,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3556,32 +2678,8 @@
       },
       {
         "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MadSDK"
       },
@@ -4346,6 +3444,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4356,6 +3461,7 @@
         "declKind": "Import",
         "moduleName": "MadSDK",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -4364,7 +3470,10 @@
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
-        "moduleName": "MadSDK"
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4793,7 +3902,10 @@
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
-        "moduleName": "MadSDK"
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4997,401 +4109,6 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIConfiguration",
-        "printedName": "UIConfiguration",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "Color",
-            "printedName": "Color",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "hex",
-                "printedName": "hex",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.UIConfiguration.Color.Type) -> (Swift.String) -> MadSDK.UIConfiguration.Color",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> MadSDK.UIConfiguration.Color",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "MadSDK.UIConfiguration.Color",
-                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.UIConfiguration.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "MadSDK.UIConfiguration.Color",
-                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO3hexyAESScAEmF",
-                "mangledName": "$s6MadSDK15UIConfigurationV5ColorO3hexyAESScAEmF",
-                "moduleName": "MadSDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "uiColor",
-                "printedName": "uiColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(MadSDK.UIConfiguration.Color.Type) -> (UIKit.UIColor) -> MadSDK.UIConfiguration.Color",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(UIKit.UIColor) -> MadSDK.UIConfiguration.Color",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "MadSDK.UIConfiguration.Color",
-                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIColor",
-                            "printedName": "UIKit.UIColor",
-                            "usr": "c:objc(cs)UIColor"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "MadSDK.UIConfiguration.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "MadSDK.UIConfiguration.Color",
-                            "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO02uiD0yAESo7UIColorCcAEmF",
-                "mangledName": "$s6MadSDK15UIConfigurationV5ColorO02uiD0yAESo7UIColorCcAEmF",
-                "moduleName": "MadSDK"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:6MadSDK15UIConfigurationV5ColorO",
-            "mangledName": "$s6MadSDK15UIConfigurationV5ColorO",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "primaryColor",
-            "printedName": "primaryColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "MadSDK.UIConfiguration.Color",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK15UIConfigurationV12primaryColorAC0E0Ovp",
-            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColorAC0E0Ovp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "MadSDK.UIConfiguration.Color",
-                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK15UIConfigurationV12primaryColorAC0E0Ovg",
-                "mangledName": "$s6MadSDK15UIConfigurationV12primaryColorAC0E0Ovg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "secondaryColor",
-            "printedName": "secondaryColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "MadSDK.UIConfiguration.Color",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovp",
-            "mangledName": "$s6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "MadSDK.UIConfiguration.Color",
-                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
-                "mangledName": "$s6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cornerRadius",
-            "printedName": "cornerRadius",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK15UIConfigurationV12cornerRadius14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s6MadSDK15UIConfigurationV12cornerRadius12CoreGraphics7CGFloatVvp",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK15UIConfigurationV12cornerRadius14CoreFoundation7CGFloatVvg",
-                "mangledName": "$s6MadSDK15UIConfigurationV12cornerRadius12CoreGraphics7CGFloatVvg",
-                "moduleName": "MadSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(primaryColor:secondaryColor:cornerRadius:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIConfiguration",
-                "printedName": "MadSDK.UIConfiguration",
-                "usr": "s:6MadSDK15UIConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "MadSDK.UIConfiguration.Color",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "MadSDK.UIConfiguration.Color",
-                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH12CoreGraphics7CGFloatVtcfc",
-            "moduleName": "MadSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "default",
-            "printedName": "default",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIConfiguration",
-                "printedName": "MadSDK.UIConfiguration",
-                "usr": "s:6MadSDK15UIConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6MadSDK15UIConfigurationV7defaultACvpZ",
-            "mangledName": "$s6MadSDK15UIConfigurationV7defaultACvpZ",
-            "moduleName": "MadSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "UsableFromInline"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIConfiguration",
-                    "printedName": "MadSDK.UIConfiguration",
-                    "usr": "s:6MadSDK15UIConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6MadSDK15UIConfigurationV7defaultACvgZ",
-                "mangledName": "$s6MadSDK15UIConfigurationV7defaultACvgZ",
-                "moduleName": "MadSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6MadSDK15UIConfigurationV",
-        "mangledName": "$s6MadSDK15UIConfigurationV",
-        "moduleName": "MadSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "MadSDK"
       },
       {
@@ -5406,7 +4123,10 @@
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
-        "moduleName": "MadSDK"
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5429,7 +4149,1311 @@
         "declKind": "Import",
         "moduleName": "MadSDK",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppAdLoadError",
+        "printedName": "InAppAdLoadError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppAdLoadError",
+                    "printedName": "MadSDK.InAppAdLoadError",
+                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InAppAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppAdLoadError",
+                        "printedName": "MadSDK.InAppAdLoadError",
+                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO7networkyA2CmF",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO7networkyA2CmF",
+            "moduleName": "MadSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkNotInitialized",
+            "printedName": "sdkNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppAdLoadError",
+                    "printedName": "MadSDK.InAppAdLoadError",
+                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InAppAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppAdLoadError",
+                        "printedName": "MadSDK.InAppAdLoadError",
+                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO17sdkNotInitializedyA2CmF",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO17sdkNotInitializedyA2CmF",
+            "moduleName": "MadSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "adLoad",
+            "printedName": "adLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InAppAdLoadError.Type) -> MadSDK.InAppAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppAdLoadError",
+                    "printedName": "MadSDK.InAppAdLoadError",
+                    "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InAppAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppAdLoadError",
+                        "printedName": "MadSDK.InAppAdLoadError",
+                        "usr": "s:6MadSDK16InAppAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO02adF0yA2CmF",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO02adF0yA2CmF",
+            "moduleName": "MadSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppAdLoadError",
+                "printedName": "MadSDK.InAppAdLoadError",
+                "usr": "s:6MadSDK16InAppAdLoadErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppAdLoadError",
+                "printedName": "MadSDK.InAppAdLoadError",
+                "usr": "s:6MadSDK16InAppAdLoadErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO9hashValueSivp",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO9hashValueSivp",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK16InAppAdLoadErrorO9hashValueSivg",
+                "mangledName": "$s6MadSDK16InAppAdLoadErrorO9hashValueSivg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK16InAppAdLoadErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6MadSDK16InAppAdLoadErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6MadSDK16InAppAdLoadErrorO",
+        "mangledName": "$s6MadSDK16InAppAdLoadErrorO",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MadsCore",
+        "printedName": "MadsCore",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppAdDelegate",
+        "printedName": "InAppAdDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "inAppAd",
+            "printedName": "inAppAd(_:didEmit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppAd",
+                "printedName": "MadSDK.InAppAd",
+                "usr": "s:6MadSDK7InAppAdC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "MadSDK.InAppAd.Event",
+                "usr": "s:6MadSDK7InAppAdC5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK15InAppAdDelegateP02indE0_7didEmityAA0cdE0C_AG5EventOtF",
+            "mangledName": "$s6MadSDK15InAppAdDelegateP02indE0_7didEmityAA0cdE0C_AG5EventOtF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InAppAdDelegate>",
+            "sugared_genericSig": "<Self where Self : MadSDK.InAppAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK15InAppAdDelegateP",
+        "mangledName": "$s6MadSDK15InAppAdDelegateP",
+        "moduleName": "MadSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppAd",
+        "printedName": "InAppAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MadSDK.InAppAdDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvp",
+            "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InAppAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppAdDelegate",
+                        "printedName": "any MadSDK.InAppAdDelegate",
+                        "usr": "s:6MadSDK15InAppAdDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvg",
+                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InAppAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppAdDelegate",
+                        "printedName": "any MadSDK.InAppAdDelegate",
+                        "usr": "s:6MadSDK15InAppAdDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvs",
+                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s6MadSDK7InAppAdC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Event",
+            "printedName": "Event",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "adShown",
+                "printedName": "adShown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InAppAd.Event",
+                        "usr": "s:6MadSDK7InAppAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InAppAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK7InAppAdC5EventO7adShownyA2EmF",
+                "mangledName": "$s6MadSDK7InAppAdC5EventO7adShownyA2EmF",
+                "moduleName": "MadSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "adFailedToShow",
+                "printedName": "adFailedToShow",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InAppAd.Event",
+                        "usr": "s:6MadSDK7InAppAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InAppAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK7InAppAdC5EventO14adFailedToShowyA2EmF",
+                "mangledName": "$s6MadSDK7InAppAdC5EventO14adFailedToShowyA2EmF",
+                "moduleName": "MadSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "adDeeplinkClicked",
+                "printedName": "adDeeplinkClicked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InAppAd.Event.Type) -> (Foundation.URL) -> MadSDK.InAppAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> MadSDK.InAppAd.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InAppAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK7InAppAdC5EventO17adDeeplinkClickedyAE10Foundation3URLVcAEmF",
+                "mangledName": "$s6MadSDK7InAppAdC5EventO17adDeeplinkClickedyAE10Foundation3URLVcAEmF",
+                "moduleName": "MadSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "adPromocodeClicked",
+                "printedName": "adPromocodeClicked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InAppAd.Event.Type) -> (Swift.String) -> MadSDK.InAppAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> MadSDK.InAppAd.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InAppAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK7InAppAdC5EventO18adPromocodeClickedyAESScAEmF",
+                "mangledName": "$s6MadSDK7InAppAdC5EventO18adPromocodeClickedyAESScAEmF",
+                "moduleName": "MadSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "adDismissed",
+                "printedName": "adDismissed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InAppAd.Event.Type) -> MadSDK.InAppAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InAppAd.Event",
+                        "usr": "s:6MadSDK7InAppAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InAppAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InAppAd.Event",
+                            "usr": "s:6MadSDK7InAppAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK7InAppAdC5EventO11adDismissedyA2EmF",
+                "mangledName": "$s6MadSDK7InAppAdC5EventO11adDismissedyA2EmF",
+                "moduleName": "MadSDK"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6MadSDK7InAppAdC5EventO",
+            "mangledName": "$s6MadSDK7InAppAdC5EventO",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MadSDK7InAppAdC",
+        "mangledName": "$s6MadSDK7InAppAdC",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomSheetDismissHandler",
+        "printedName": "BottomSheetDismissHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "canBeDismissed",
+            "printedName": "canBeDismissed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvp",
+            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvp",
+            "moduleName": "MadSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvg",
+                "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP14canBeDismissedSbvg",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
+                "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishDismiss",
+            "printedName": "didFinishDismiss(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetDismissSource",
+                "printedName": "MadSDK.BottomSheetDismissSource",
+                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK25BottomSheetDismissHandlerP09didFinishE06sourceyAA0cdE6SourceO_tF",
+            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP09didFinishE06sourceyAA0cdE6SourceO_tF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
+            "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "canBeDismissed",
+            "printedName": "canBeDismissed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvp",
+            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvg",
+                "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE14canBeDismissedSbvg",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
+                "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishDismiss",
+            "printedName": "didFinishDismiss(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetDismissSource",
+                "printedName": "MadSDK.BottomSheetDismissSource",
+                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK25BottomSheetDismissHandlerPAAE09didFinishE06sourceyAA0cdE6SourceO_tF",
+            "mangledName": "$s6MadSDK25BottomSheetDismissHandlerPAAE09didFinishE06sourceyAA0cdE6SourceO_tF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.BottomSheetDismissHandler>",
+            "sugared_genericSig": "<Self where Self : MadSDK.BottomSheetDismissHandler>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK25BottomSheetDismissHandlerP",
+        "mangledName": "$s6MadSDK25BottomSheetDismissHandlerP",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomSheetDismissSource",
+        "printedName": "BottomSheetDismissSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "swipe",
+            "printedName": "swipe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.BottomSheetDismissSource.Type) -> MadSDK.BottomSheetDismissSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetDismissSource",
+                    "printedName": "MadSDK.BottomSheetDismissSource",
+                    "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.BottomSheetDismissSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BottomSheetDismissSource",
+                        "printedName": "MadSDK.BottomSheetDismissSource",
+                        "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK24BottomSheetDismissSourceO5swipeyA2CmF",
+            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO5swipeyA2CmF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dimmingViewTap",
+            "printedName": "dimmingViewTap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.BottomSheetDismissSource.Type) -> MadSDK.BottomSheetDismissSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetDismissSource",
+                    "printedName": "MadSDK.BottomSheetDismissSource",
+                    "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.BottomSheetDismissSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BottomSheetDismissSource",
+                        "printedName": "MadSDK.BottomSheetDismissSource",
+                        "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK24BottomSheetDismissSourceO14dimmingViewTapyA2CmF",
+            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO14dimmingViewTapyA2CmF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetDismissSource",
+                "printedName": "MadSDK.BottomSheetDismissSource",
+                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetDismissSource",
+                "printedName": "MadSDK.BottomSheetDismissSource",
+                "usr": "s:6MadSDK24BottomSheetDismissSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK24BottomSheetDismissSourceO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO2eeoiySbAC_ACtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK24BottomSheetDismissSourceO9hashValueSivp",
+            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO9hashValueSivp",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK24BottomSheetDismissSourceO9hashValueSivg",
+                "mangledName": "$s6MadSDK24BottomSheetDismissSourceO9hashValueSivg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK24BottomSheetDismissSourceO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6MadSDK24BottomSheetDismissSourceO4hash4intoys6HasherVz_tF",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6MadSDK24BottomSheetDismissSourceO",
+        "mangledName": "$s6MadSDK24BottomSheetDismissSourceO",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompactPreferredContentSizeProvider",
+        "printedName": "CompactPreferredContentSizeProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "compactPreferredContentSize",
+            "printedName": "compactPreferredContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvp",
+            "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvp",
+            "moduleName": "MadSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvg",
+                "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP07compactdeF0So6CGSizeVvg",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.CompactPreferredContentSizeProvider>",
+                "sugared_genericSig": "<Self where Self : MadSDK.CompactPreferredContentSizeProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK35CompactPreferredContentSizeProviderP",
+        "mangledName": "$s6MadSDK35CompactPreferredContentSizeProviderP",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5472,123 +5496,18 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 185,
-      "length": 16,
-      "value": "\"Реклама\""
+      "offset": 413,
+      "length": 19,
+      "value": "\"Erid: 2VtzqvGA9Z3\""
     },
     {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 275,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 285,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 13,
-      "value": "\"app_version\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 11,
-      "value": "\"bundle_id\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 12,
-      "value": "\"os_version\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 365,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 399,
-      "length": 6,
-      "value": "\"idfa\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 611,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
-      "kind": "FloatLiteral",
-      "offset": 792,
-      "length": 4,
-      "value": "0.55"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2668,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2709,
-      "length": 5,
-      "value": "false"
+      "offset": 451,
+      "length": 150,
+      "value": "\"Продавец: ООО Рога и Копыта, ИНН 1234567890, ОГРН: 39203904249. Г. Краснодар, ул. Леванского, 185\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/MadsButton.swift",
@@ -5619,6 +5538,20 @@
       "value": "8"
     },
     {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Interfaces\/UIConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Interfaces\/UIConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "15"
+    },
+    {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Interfaces\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 197,
@@ -5631,20 +5564,6 @@
       "offset": 243,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 19,
-      "value": "\"Erid: 2VtzqvGA9Z3\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 150,
-      "value": "\"Продавец: ООО Рога и Копыта, ИНН 1234567890, ОГРН: 39203904249. Г. Краснодар, ул. Леванского, 185\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetSettings.swift",
@@ -5740,30 +5659,16 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/MadSDK.swift",
       "kind": "StringLiteral",
-      "offset": 140,
+      "offset": 161,
       "length": 7,
       "value": "\"0.1.0\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/MadSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 188,
+      "offset": 209,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Interfaces\/UIConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 517,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Interfaces\/UIConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 937,
-      "length": 2,
-      "value": "15"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetPullBar.swift",
@@ -5850,11 +5755,130 @@
       "value": "\"Продавец: ООО Рога и Копыта, ИНН 1234567890, ОГРН: 39203904249. Г. Краснодар, ул. Леванского, 185\""
     },
     {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 16,
+      "value": "\"Реклама\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DesignSystem\/AdLabelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 331,
+      "length": 1,
+      "value": "6"
+    },
+    {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/InAppAdPopupViewModel+Mapping.swift",
       "kind": "IntegerLiteral",
-      "offset": 176,
+      "offset": 197,
       "length": 2,
       "value": "26"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 11,
+      "value": "\"bundle_id\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/DefaultParameters\/DefaultParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 611,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
+      "kind": "FloatLiteral",
+      "offset": 792,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2668,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/MadSDK\/MadSDK\/Sources\/InApp\/Popup\/BottomSheet\/BottomSheetTransitionController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2709,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
@@ -5873,30 +5897,30 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 21,
-      "value": "\"text\/invert\/primary\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 14,
-      "value": "\"text\/primary\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1729,
+      "offset": 1230,
       "length": 27,
       "value": "\"button\/background\/primary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1419,
       "length": 29,
       "value": "\"button\/background\/secondary\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 21,
+      "value": "\"text\/invert\/primary\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1944,
+      "length": 14,
+      "value": "\"text\/primary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/build\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
