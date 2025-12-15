@@ -21,6 +21,10 @@
 	<dict>
 		<key>Headers/MadsCore.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TdKrawTzVOixOqkpu76jp9Q4BnI=
+			</data>
 			<key>hash2</key>
 			<data>
 			ElnjySMCmV8rlc+SGRBE7nbX64V8fyiMe2T57fok9q4=
@@ -28,6 +32,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bVZIbbsbcBlT4rwAuNjIEgQ17Nc=
+			</data>
 			<key>hash2</key>
 			<data>
 			h+m9CDCvoLsqXV8+K6cUeW6WeMd+VQoKxygo3PiUGVg=
