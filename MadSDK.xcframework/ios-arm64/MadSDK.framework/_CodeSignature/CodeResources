@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/MadsCore.framework/MadsCore</key>
 		<data>
-		OIkDS14zLSmLiDSXCdHSWEEJPew=
+		soKM3mXBQEIocmz0zrR0OumDVYk=
 		</data>
 		<key>Frameworks/MadsCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MadSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fT5ZvtlAqioMws7Uv7Ph1l9Jmvg=
+		kU6Y1o5KagAz8qesKVWEfWDGz1Q=
 		</data>
 		<key>Modules/MadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -55,10 +55,6 @@
 		<key>Modules/MadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
 		pqc1aq6lFaTfHiVHqQkaQ3UWF4c=
-		</data>
-		<key>Modules/MadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		0Hp8jwSG345JqDukjfv7FPTs4/k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dtbezw1dkwmGTSCu7lWZLqyvNxyhMi389wswtuDk6Ks=
+			uodv6Wb3bHPvtklj5qWk2rIGTes9j2nj96UxJlO/BhM=
 			</data>
 		</dict>
 		<key>Frameworks/MadsCore.framework/Modules/module.modulemap</key>
@@ -124,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VW1P58rcqoQPAOfNy3s1QKQPodgEcMQFdGLVx/rJZbI=
+			ZJk6he2omt0pwvkRSqH3iEUase8CZTycDgvipKChq4A=
 			</data>
 		</dict>
 		<key>Modules/MadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -153,13 +149,6 @@
 			<key>hash2</key>
 			<data>
 			aqkNn9YREFHl6L2gU6+l5UbiwpVbxKJEWoaV8E+CGqs=
-			</data>
-		</dict>
-		<key>Modules/MadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AN7kqv8N9It/tCbY81XvcqHrsH73iM16onWyn4WWbN8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
