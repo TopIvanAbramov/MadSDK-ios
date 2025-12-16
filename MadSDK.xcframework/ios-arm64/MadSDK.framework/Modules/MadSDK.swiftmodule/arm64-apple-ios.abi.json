@@ -1310,6 +1310,26 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "MadSDK"
       },
       {
@@ -5743,13 +5763,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MadSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6213,7 +6226,8 @@
             "moduleName": "MadSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6241,6 +6255,51 @@
           },
           {
             "kind": "Var",
+            "name": "primaryButtonContentColor",
+            "printedName": "primaryButtonContentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV25primaryButtonContentColorAC0G0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV25primaryButtonContentColorAC0G0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV25primaryButtonContentColorAC0G0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV25primaryButtonContentColorAC0G0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "secondaryColor",
             "printedName": "secondaryColor",
             "children": [
@@ -6257,7 +6316,8 @@
             "moduleName": "MadSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6277,6 +6337,141 @@
                 "declKind": "Accessor",
                 "usr": "s:6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
                 "mangledName": "$s6MadSDK15UIConfigurationV14secondaryColorAC0E0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryButtonContentColor",
+            "printedName": "secondaryButtonContentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV27secondaryButtonContentColorAC0G0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV27secondaryButtonContentColorAC0G0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV27secondaryButtonContentColorAC0G0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV27secondaryButtonContentColorAC0G0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loaderColor",
+            "printedName": "loaderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV11loaderColorAC0E0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV11loaderColorAC0E0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV11loaderColorAC0E0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV11loaderColorAC0E0Ovg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK15UIConfigurationV15backgroundColorAC0E0Ovp",
+            "mangledName": "$s6MadSDK15UIConfigurationV15backgroundColorAC0E0Ovp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "MadSDK.UIConfiguration.Color",
+                    "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK15UIConfigurationV15backgroundColorAC0E0Ovg",
+                "mangledName": "$s6MadSDK15UIConfigurationV15backgroundColorAC0E0Ovg",
                 "moduleName": "MadSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6331,13 +6526,37 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(primaryColor:secondaryColor:cornerRadius:)",
+            "printedName": "init(primaryColor:primaryButtonContentColor:secondaryColor:secondaryButtonContentColor:loaderColor:backgroundColor:cornerRadius:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "UIConfiguration",
                 "printedName": "MadSDK.UIConfiguration",
                 "usr": "s:6MadSDK15UIConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "MadSDK.UIConfiguration.Color",
+                "usr": "s:6MadSDK15UIConfigurationV5ColorO"
               },
               {
                 "kind": "TypeNominal",
@@ -6360,8 +6579,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColor09secondaryE012cornerRadiusA2C0E0O_AH12CoreGraphics7CGFloatVtcfc",
+            "usr": "s:6MadSDK15UIConfigurationV12primaryColor0d13ButtonContentE009secondaryE00hfgE006loaderE0010backgroundE012cornerRadiusA2C0E0O_A5L14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s6MadSDK15UIConfigurationV12primaryColor0d13ButtonContentE009secondaryE00hfgE006loaderE0010backgroundE012cornerRadiusA2C0E0O_A5L12CoreGraphics7CGFloatVtcfc",
             "moduleName": "MadSDK",
             "declAttributes": [
               "AccessControl"
@@ -6701,6 +6920,121 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK04MadsB0O6userIdSSSgvpZ",
+            "mangledName": "$s6MadSDK04MadsB0O6userIdSSSgvpZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK04MadsB0O6userIdSSSgvgZ",
+                "mangledName": "$s6MadSDK04MadsB0O6userIdSSSgvgZ",
+                "moduleName": "MadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK04MadsB0O6userIdSSSgvsZ",
+                "mangledName": "$s6MadSDK04MadsB0O6userIdSSSgvsZ",
+                "moduleName": "MadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK04MadsB0O6userIdSSSgvMZ",
+                "mangledName": "$s6MadSDK04MadsB0O6userIdSSSgvMZ",
+                "moduleName": "MadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initialize",
             "printedName": "initialize()",
@@ -6714,34 +7048,6 @@
             "declKind": "Func",
             "usr": "s:6MadSDK04MadsB0O10initializeyyFZ",
             "mangledName": "$s6MadSDK04MadsB0O10initializeyyFZ",
-            "moduleName": "MadSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "update",
-            "printedName": "update(userId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6MadSDK04MadsB0O6update6userIdySS_tFZ",
-            "mangledName": "$s6MadSDK04MadsB0O6update6userIdySS_tFZ",
             "moduleName": "MadSDK",
             "static": true,
             "declAttributes": [
@@ -7516,42 +7822,42 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "StringLiteral",
-      "offset": 185,
+      "offset": 254,
       "length": 16,
       "value": "\"Реклама\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 255,
+      "offset": 324,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 333,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 275,
+      "offset": 344,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 285,
+      "offset": 354,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 331,
+      "offset": 400,
       "length": 1,
       "value": "6"
     },
@@ -7719,7 +8025,7 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/InApp\/Popup\/InAppAdPopupViewModel+Mapping.swift",
       "kind": "IntegerLiteral",
-      "offset": 197,
+      "offset": 179,
       "length": 2,
       "value": "26"
     },
@@ -7787,34 +8093,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/InApp\/Popup\/VIP\/Cells\/InAppAdPopupHeaderCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 19,
-      "value": "\"Erid: 2VtzqvGA9Z3\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/InApp\/Popup\/VIP\/Cells\/InAppAdPopupHeaderCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1224,
-      "length": 150,
-      "value": "\"Продавец: ООО Рога и Копыта, ИНН 1234567890, ОГРН: 39203904249. Г. Краснодар, ул. Леванского, 185\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 19,
-      "value": "\"Erid: 2VtzqvGA9Z3\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/InApp\/Popup\/VIP\/InAppAdPopupViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 150,
-      "value": "\"Продавец: ООО Рога и Копыта, ИНН 1234567890, ОГРН: 39203904249. Г. Краснодар, ул. Леванского, 185\""
-    },
-    {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Interfaces\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 197,
@@ -7831,14 +8109,14 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Interfaces\/UIConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 517,
+      "offset": 1252,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Interfaces\/UIConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 937,
+      "offset": 2176,
       "length": 2,
       "value": "15"
     },
@@ -7866,7 +8144,7 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/MadSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 380,
+      "offset": 443,
       "length": 5,
       "value": "false"
     },
@@ -7887,30 +8165,30 @@
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
-      "length": 27,
-      "value": "\"button\/background\/primary\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1419,
-      "length": 29,
-      "value": "\"button\/background\/secondary\""
-    },
-    {
-      "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1210,
       "length": 21,
       "value": "\"text\/invert\/primary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1379,
       "length": 14,
       "value": "\"text\/primary\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 27,
+      "value": "\"button\/background\/primary\""
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 29,
+      "value": "\"button\/background\/secondary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

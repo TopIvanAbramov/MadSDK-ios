@@ -223,9 +223,13 @@ public struct UIConfiguration {
     case uiColor(UIKit.UIColor)
   }
   public let primaryColor: MadSDK.UIConfiguration.Color
+  public let primaryButtonContentColor: MadSDK.UIConfiguration.Color
   public let secondaryColor: MadSDK.UIConfiguration.Color
+  public let secondaryButtonContentColor: MadSDK.UIConfiguration.Color
+  public let loaderColor: MadSDK.UIConfiguration.Color
+  public let backgroundColor: MadSDK.UIConfiguration.Color
   public let cornerRadius: CoreFoundation.CGFloat
-  public init(primaryColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
+  public init(primaryColor: MadSDK.UIConfiguration.Color, primaryButtonContentColor: MadSDK.UIConfiguration.Color, secondaryColor: MadSDK.UIConfiguration.Color, secondaryButtonContentColor: MadSDK.UIConfiguration.Color, loaderColor: MadSDK.UIConfiguration.Color, backgroundColor: MadSDK.UIConfiguration.Color, cornerRadius: CoreFoundation.CGFloat = 15)
   @usableFromInline
   internal static let `default`: MadSDK.UIConfiguration
 }
@@ -233,8 +237,8 @@ public enum MadsSDK {
   public static let version: Swift.String
   public static var isDebugLogsEnabled: Swift.Bool
   public static var isDebugCreativeEnabled: Swift.Bool
+  public static var userId: Swift.String?
   public static func initialize()
-  public static func update(userId: Swift.String)
 }
 extension MadSDK.InAppAdLoadError : Swift.Equatable {}
 extension MadSDK.InAppAdLoadError : Swift.Hashable {}
