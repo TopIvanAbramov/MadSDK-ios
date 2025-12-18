@@ -6635,7 +6635,10 @@
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
-        "moduleName": "MadSDK"
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -9919,7 +9922,7 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Core\/InlineAdLoader.swift",
       "kind": "Dictionary",
-      "offset": 1480,
+      "offset": 1501,
       "length": 3,
       "value": "[]"
     },
@@ -10073,16 +10076,16 @@
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 21,
-      "value": "\"text\/invert\/primary\""
+      "offset": 1108,
+      "length": 14,
+      "value": "\"text\/primary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 14,
-      "value": "\"text\/primary\""
+      "offset": 1361,
+      "length": 21,
+      "value": "\"text\/invert\/primary\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphonesimulator\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

@@ -7,7 +7,6 @@ import AppTrackingTransparency
 import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
-import MadsCore
 import Network
 import Swift
 import SwiftUI

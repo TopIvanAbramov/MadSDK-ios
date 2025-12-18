@@ -6635,7 +6635,10 @@
         "name": "MadsCore",
         "printedName": "MadsCore",
         "declKind": "Import",
-        "moduleName": "MadSDK"
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -9919,7 +9922,7 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Core\/InlineAdLoader.swift",
       "kind": "Dictionary",
-      "offset": 1480,
+      "offset": 1501,
       "length": 3,
       "value": "[]"
     },
