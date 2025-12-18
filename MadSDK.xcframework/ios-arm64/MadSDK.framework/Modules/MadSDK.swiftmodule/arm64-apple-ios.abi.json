@@ -5868,6 +5868,1552 @@
         "moduleName": "MadSDK"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAdDelegate",
+        "printedName": "InlineAdDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "inlineAd",
+            "printedName": "inlineAd(_:didEmit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAd",
+                "printedName": "MadSDK.InlineAd",
+                "usr": "s:6MadSDK8InlineAdC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "MadSDK.InlineAd.Event",
+                "usr": "s:6MadSDK8InlineAdC5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK16InlineAdDelegateP06inlineD0_7didEmityAA0cD0C_AG5EventOtF",
+            "mangledName": "$s6MadSDK16InlineAdDelegateP06inlineD0_7didEmityAA0cD0C_AG5EventOtF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdDelegate>",
+            "sugared_genericSig": "<Self where Self : MadSDK.InlineAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK16InlineAdDelegateP",
+        "mangledName": "$s6MadSDK16InlineAdDelegateP",
+        "moduleName": "MadSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAd",
+        "printedName": "InlineAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MadSDK.InlineAdDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdDelegate",
+                        "printedName": "any MadSDK.InlineAdDelegate",
+                        "usr": "s:6MadSDK16InlineAdDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdDelegate",
+                        "printedName": "any MadSDK.InlineAdDelegate",
+                        "usr": "s:6MadSDK16InlineAdDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s6MadSDK8InlineAdC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Event",
+            "printedName": "Event",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "shown",
+                "printedName": "shown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAd.Event.Type) -> MadSDK.InlineAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InlineAd.Event",
+                        "usr": "s:6MadSDK8InlineAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK8InlineAdC5EventO5shownyA2EmF",
+                "mangledName": "$s6MadSDK8InlineAdC5EventO5shownyA2EmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "failedToShow",
+                "printedName": "failedToShow",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAd.Event.Type) -> MadSDK.InlineAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InlineAd.Event",
+                        "usr": "s:6MadSDK8InlineAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK8InlineAdC5EventO12failedToShowyA2EmF",
+                "mangledName": "$s6MadSDK8InlineAdC5EventO12failedToShowyA2EmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "deeplinkClicked",
+                "printedName": "deeplinkClicked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAd.Event.Type) -> (Foundation.URL) -> MadSDK.InlineAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> MadSDK.InlineAd.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK8InlineAdC5EventO15deeplinkClickedyAE10Foundation3URLVcAEmF",
+                "mangledName": "$s6MadSDK8InlineAdC5EventO15deeplinkClickedyAE10Foundation3URLVcAEmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "promocodeClicked",
+                "printedName": "promocodeClicked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAd.Event.Type) -> (Swift.String) -> MadSDK.InlineAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> MadSDK.InlineAd.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK8InlineAdC5EventO16promocodeClickedyAESScAEmF",
+                "mangledName": "$s6MadSDK8InlineAdC5EventO16promocodeClickedyAESScAEmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dismissed",
+                "printedName": "dismissed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAd.Event.Type) -> MadSDK.InlineAd.Event",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "MadSDK.InlineAd.Event",
+                        "usr": "s:6MadSDK8InlineAdC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAd.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "MadSDK.InlineAd.Event",
+                            "usr": "s:6MadSDK8InlineAdC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK8InlineAdC5EventO9dismissedyA2EmF",
+                "mangledName": "$s6MadSDK8InlineAdC5EventO9dismissedyA2EmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6MadSDK8InlineAdC5EventO",
+            "mangledName": "$s6MadSDK8InlineAdC5EventO",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MadSDK8InlineAdC",
+        "mangledName": "$s6MadSDK8InlineAdC",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAdLoadError",
+        "printedName": "InlineAdLoadError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InlineAdLoadError.Type) -> MadSDK.InlineAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InlineAdLoadError",
+                    "printedName": "MadSDK.InlineAdLoadError",
+                    "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InlineAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoadError",
+                        "printedName": "MadSDK.InlineAdLoadError",
+                        "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO7networkyA2CmF",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO7networkyA2CmF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkNotInitialized",
+            "printedName": "sdkNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InlineAdLoadError.Type) -> MadSDK.InlineAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InlineAdLoadError",
+                    "printedName": "MadSDK.InlineAdLoadError",
+                    "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InlineAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoadError",
+                        "printedName": "MadSDK.InlineAdLoadError",
+                        "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO17sdkNotInitializedyA2CmF",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO17sdkNotInitializedyA2CmF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adLoad",
+            "printedName": "adLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MadSDK.InlineAdLoadError.Type) -> MadSDK.InlineAdLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InlineAdLoadError",
+                    "printedName": "MadSDK.InlineAdLoadError",
+                    "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MadSDK.InlineAdLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoadError",
+                        "printedName": "MadSDK.InlineAdLoadError",
+                        "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO02adE0yA2CmF",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO02adE0yA2CmF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAdLoadError",
+                "printedName": "MadSDK.InlineAdLoadError",
+                "usr": "s:6MadSDK17InlineAdLoadErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAdLoadError",
+                "printedName": "MadSDK.InlineAdLoadError",
+                "usr": "s:6MadSDK17InlineAdLoadErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO9hashValueSivp",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO9hashValueSivp",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK17InlineAdLoadErrorO9hashValueSivg",
+                "mangledName": "$s6MadSDK17InlineAdLoadErrorO9hashValueSivg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK17InlineAdLoadErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6MadSDK17InlineAdLoadErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "MadSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6MadSDK17InlineAdLoadErrorO",
+        "mangledName": "$s6MadSDK17InlineAdLoadErrorO",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MadsCore",
+        "printedName": "MadsCore",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAdLoaderDelegate",
+        "printedName": "InlineAdLoaderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "inlineAdLoader",
+            "printedName": "inlineAdLoader(_:didChangeState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAdLoaderProtocol",
+                "printedName": "any MadSDK.InlineAdLoaderProtocol",
+                "usr": "s:6MadSDK22InlineAdLoaderProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "MadSDK.InlineAdLoader.State",
+                "usr": "s:6MadSDK14InlineAdLoaderC5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK22InlineAdLoaderDelegateP06inlinedE0_14didChangeStateyAA0cdE8Protocol_p_AA0cdE0C0J0OtF",
+            "mangledName": "$s6MadSDK22InlineAdLoaderDelegateP06inlinedE0_14didChangeStateyAA0cdE8Protocol_p_AA0cdE0C0J0OtF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdLoaderDelegate>",
+            "sugared_genericSig": "<Self where Self : MadSDK.InlineAdLoaderDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK22InlineAdLoaderDelegateP",
+        "mangledName": "$s6MadSDK22InlineAdLoaderDelegateP",
+        "moduleName": "MadSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAdLoader",
+        "printedName": "InlineAdLoader",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "State",
+            "printedName": "State",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "loaded",
+                "printedName": "loaded",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAdLoader.State.Type) -> (MadSDK.InlineAd, MadSDK.AdId) -> MadSDK.InlineAdLoader.State",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MadSDK.InlineAd, MadSDK.AdId) -> MadSDK.InlineAdLoader.State",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "MadSDK.InlineAdLoader.State",
+                            "usr": "s:6MadSDK14InlineAdLoaderC5StateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(MadSDK.InlineAd, MadSDK.AdId)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InlineAd",
+                                "printedName": "MadSDK.InlineAd",
+                                "usr": "s:6MadSDK8InlineAdC"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AdId",
+                                "printedName": "MadSDK.AdId",
+                                "usr": "s:6MadSDK4AdIdV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAdLoader.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "MadSDK.InlineAdLoader.State",
+                            "usr": "s:6MadSDK14InlineAdLoaderC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK14InlineAdLoaderC5StateO6loadedyAeA0cD0C_AA0D2IdVtcAEmF",
+                "mangledName": "$s6MadSDK14InlineAdLoaderC5StateO6loadedyAeA0cD0C_AA0D2IdVtcAEmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "failed",
+                "printedName": "failed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MadSDK.InlineAdLoader.State.Type) -> (MadSDK.InlineAdLoadError, MadSDK.AdId) -> MadSDK.InlineAdLoader.State",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MadSDK.InlineAdLoadError, MadSDK.AdId) -> MadSDK.InlineAdLoader.State",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "MadSDK.InlineAdLoader.State",
+                            "usr": "s:6MadSDK14InlineAdLoaderC5StateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(MadSDK.InlineAdLoadError, MadSDK.AdId)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InlineAdLoadError",
+                                "printedName": "MadSDK.InlineAdLoadError",
+                                "usr": "s:6MadSDK17InlineAdLoadErrorO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AdId",
+                                "printedName": "MadSDK.AdId",
+                                "usr": "s:6MadSDK4AdIdV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MadSDK.InlineAdLoader.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "MadSDK.InlineAdLoader.State",
+                            "usr": "s:6MadSDK14InlineAdLoaderC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6MadSDK14InlineAdLoaderC5StateO6failedyAeA0cD9LoadErrorO_AA0D2IdVtcAEmF",
+                "mangledName": "$s6MadSDK14InlineAdLoaderC5StateO6failedyAeA0cD9LoadErrorO_AA0D2IdVtcAEmF",
+                "moduleName": "MadSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6MadSDK14InlineAdLoaderC5StateO",
+            "mangledName": "$s6MadSDK14InlineAdLoaderC5StateO",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MadSDK.InlineAdLoaderDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvp",
+            "mangledName": "$s6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdLoaderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoaderDelegate",
+                        "printedName": "any MadSDK.InlineAdLoaderDelegate",
+                        "usr": "s:6MadSDK22InlineAdLoaderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvg",
+                "mangledName": "$s6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdLoaderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoaderDelegate",
+                        "printedName": "any MadSDK.InlineAdLoaderDelegate",
+                        "usr": "s:6MadSDK22InlineAdLoaderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvs",
+                "mangledName": "$s6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s6MadSDK14InlineAdLoaderC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAdLoader",
+                "printedName": "MadSDK.InlineAdLoader",
+                "usr": "s:6MadSDK14InlineAdLoaderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MadSDK14InlineAdLoaderCACycfc",
+            "mangledName": "$s6MadSDK14InlineAdLoaderCACycfc",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(adId:targetings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK14InlineAdLoaderC4load4adId10targetingsyAA0dH0V_SDyS2SGtF",
+            "mangledName": "$s6MadSDK14InlineAdLoaderC4load4adId10targetingsyAA0dH0V_SDyS2SGtF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MadSDK14InlineAdLoaderC",
+        "mangledName": "$s6MadSDK14InlineAdLoaderC",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InlineAdLoaderProtocol",
+            "printedName": "InlineAdLoaderProtocol",
+            "usr": "s:6MadSDK22InlineAdLoaderProtocolP",
+            "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InlineAdLoaderProtocol",
+        "printedName": "InlineAdLoaderProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MadSDK.InlineAdLoaderDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InlineAdLoaderDelegate",
+                    "printedName": "any MadSDK.InlineAdLoaderDelegate",
+                    "usr": "s:6MadSDK22InlineAdLoaderDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvp",
+            "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "MadSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdLoaderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoaderDelegate",
+                        "printedName": "any MadSDK.InlineAdLoaderDelegate",
+                        "usr": "s:6MadSDK22InlineAdLoaderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvg",
+                "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdLoaderProtocol>",
+                "sugared_genericSig": "<Self where Self : MadSDK.InlineAdLoaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MadSDK.InlineAdLoaderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InlineAdLoaderDelegate",
+                        "printedName": "any MadSDK.InlineAdLoaderDelegate",
+                        "usr": "s:6MadSDK22InlineAdLoaderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvs",
+                "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdLoaderProtocol>",
+                "sugared_genericSig": "<Self where Self : MadSDK.InlineAdLoaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "MadSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdLoaderProtocol>",
+                "sugared_genericSig": "<Self where Self : MadSDK.InlineAdLoaderProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(adId:targetings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK22InlineAdLoaderProtocolP4load4adId10targetingsyAA0dI0V_SDyS2SGtF",
+            "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP4load4adId10targetingsyAA0dI0V_SDyS2SGtF",
+            "moduleName": "MadSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MadSDK.InlineAdLoaderProtocol>",
+            "sugared_genericSig": "<Self where Self : MadSDK.InlineAdLoaderProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MadSDK22InlineAdLoaderProtocolP",
+        "mangledName": "$s6MadSDK22InlineAdLoaderProtocolP",
+        "moduleName": "MadSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Configuration",
         "printedName": "Configuration",
@@ -7097,6 +8643,48 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:inVC:uiConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InlineAd",
+                "printedName": "MadSDK.InlineAd",
+                "usr": "s:6MadSDK8InlineAdC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIConfiguration",
+                "printedName": "MadSDK.UIConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:6MadSDK15UIConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK04MadsB0O6render_4inVC8uiConfigSo6UIViewCAA8InlineAdC_So0I10ControllerCAA15UIConfigurationVtFZ",
+            "mangledName": "$s6MadSDK04MadsB0O6render_4inVC8uiConfigSo6UIViewCAA8InlineAdC_So0I10ControllerCAA15UIConfigurationVtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -7122,6 +8710,242 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdId",
+        "printedName": "AdId",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "padId",
+            "printedName": "padId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK4AdIdV03padD0Sivp",
+            "mangledName": "$s6MadSDK4AdIdV03padD0Sivp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK4AdIdV03padD0Sivg",
+                "mangledName": "$s6MadSDK4AdIdV03padD0Sivg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "blockId",
+            "printedName": "blockId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MadSDK4AdIdV05blockD0Sivp",
+            "mangledName": "$s6MadSDK4AdIdV05blockD0Sivp",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MadSDK4AdIdV05blockD0Sivg",
+                "mangledName": "$s6MadSDK4AdIdV05blockD0Sivg",
+                "moduleName": "MadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(padId:blockId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MadSDK4AdIdV03padD005blockD0ACSi_Sitcfc",
+            "mangledName": "$s6MadSDK4AdIdV03padD005blockD0ACSi_Sitcfc",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "with",
+            "printedName": "with(blockId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK4AdIdV4with05blockD0ACSi_tF",
+            "mangledName": "$s6MadSDK4AdIdV4with05blockD0ACSi_tF",
+            "moduleName": "MadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdId",
+                "printedName": "MadSDK.AdId",
+                "usr": "s:6MadSDK4AdIdV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MadSDK4AdIdV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MadSDK4AdIdV2eeoiySbAC_ACtFZ",
+            "moduleName": "MadSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6MadSDK4AdIdV",
+        "mangledName": "$s6MadSDK4AdIdV",
+        "moduleName": "MadSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MadSDK"
       },
       {
         "kind": "Import",
@@ -7822,42 +9646,42 @@
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "StringLiteral",
-      "offset": 254,
+      "offset": 185,
       "length": 16,
       "value": "\"Реклама\""
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 255,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 264,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 275,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 354,
+      "offset": 285,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/DesignSystem\/Components\/AdLabelView.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 331,
       "length": 1,
       "value": "6"
     },
@@ -8093,6 +9917,83 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Core\/InlineAdLoader.swift",
+      "kind": "Dictionary",
+      "offset": 1480,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1079,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1160,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1219,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1273,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1366,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1639,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Inline\/Targets\/PlaceholderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2401,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Interfaces\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 197,
@@ -8147,6 +10048,13 @@
       "offset": 443,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ivanabramov\/Desktop\/MadSDK\/ios\/MadSDK\/Sources\/Models\/AdId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/ivanabramov\/Library\/Developer\/Xcode\/DerivedData\/MadSDK-bhfsycyqmvmhmrarntohsvggkktv\/Build\/Intermediates.noindex\/MadSDK.build\/Release-iphoneos\/MadSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

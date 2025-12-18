@@ -7,6 +7,7 @@ import AppTrackingTransparency
 import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
+import MadsCore
 import Network
 import Swift
 import SwiftUI
@@ -211,6 +212,52 @@ public enum SheetSize {
   case marginFromTop(CoreFoundation.CGFloat)
   case percent(CoreFoundation.CGFloat)
 }
+extension MadSDK.InlineAd {
+  public enum Event {
+    case shown
+    case failedToShow
+    case deeplinkClicked(Foundation.URL)
+    case promocodeClicked(Swift.String)
+    case dismissed
+  }
+}
+public protocol InlineAdDelegate : AnyObject {
+  func inlineAd(_ ad: MadSDK.InlineAd, didEmit event: MadSDK.InlineAd.Event)
+}
+@_hasMissingDesignatedInitializers final public class InlineAd {
+  weak final public var delegate: (any MadSDK.InlineAdDelegate)?
+  @objc deinit
+}
+extension MadSDK.MadsSDK {
+  public static func render(_ ad: MadSDK.InlineAd, inVC viewController: UIKit.UIViewController, uiConfig: MadSDK.UIConfiguration = UIConfiguration.default) -> UIKit.UIView
+}
+public enum InlineAdLoadError : Swift.Error {
+  case network
+  case sdkNotInitialized
+  case adLoad
+  public static func == (a: MadSDK.InlineAdLoadError, b: MadSDK.InlineAdLoadError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol InlineAdLoaderDelegate : AnyObject {
+  func inlineAdLoader(_ loader: any MadSDK.InlineAdLoaderProtocol, didChangeState state: MadSDK.InlineAdLoader.State)
+}
+final public class InlineAdLoader : MadSDK.InlineAdLoaderProtocol {
+  public enum State {
+    case loaded(MadSDK.InlineAd, MadSDK.AdId)
+    case failed(MadSDK.InlineAdLoadError, MadSDK.AdId)
+  }
+  weak final public var delegate: (any MadSDK.InlineAdLoaderDelegate)?
+  public init()
+  final public func load(adId: MadSDK.AdId, targetings: [Swift.String : Swift.String] = [:])
+  @objc deinit
+}
+public protocol InlineAdLoaderProtocol : AnyObject {
+  var delegate: (any MadSDK.InlineAdLoaderDelegate)? { get set }
+  func load(adId: MadSDK.AdId, targetings: [Swift.String : Swift.String])
+}
 public struct Configuration : Swift.Equatable {
   public let isDebugLogsEnabled: Swift.Bool
   public let isDebugCreativeEnabled: Swift.Bool
@@ -240,9 +287,18 @@ public enum MadsSDK {
   public static var userId: Swift.String?
   public static func initialize()
 }
+public struct AdId : Swift.Equatable {
+  public let padId: Swift.Int
+  public let blockId: Swift.Int
+  public init(padId: Swift.Int, blockId: Swift.Int = 0)
+  public func with(blockId: Swift.Int) -> MadSDK.AdId
+  public static func == (a: MadSDK.AdId, b: MadSDK.AdId) -> Swift.Bool
+}
 extension MadSDK.InAppAdLoadError : Swift.Equatable {}
 extension MadSDK.InAppAdLoadError : Swift.Hashable {}
 extension MadSDK.BottomSheetDismissSource : Swift.Equatable {}
 extension MadSDK.BottomSheetDismissSource : Swift.Hashable {}
 extension MadSDK.BottomSheetPullBarStyle : Swift.Equatable {}
 extension MadSDK.BottomSheetPullBarStyle : Swift.Hashable {}
+extension MadSDK.InlineAdLoadError : Swift.Equatable {}
+extension MadSDK.InlineAdLoadError : Swift.Hashable {}
